@@ -13,6 +13,7 @@ import java.util.List;
 @Slf4j
 public class LoadDatabase {
 
+
     List<Long> vechicles1 = Arrays.asList(5L, 7L, 4L);
     List<Long> vechicles2 = Arrays.asList(1L, 2L, 3L);
 
