@@ -23,6 +23,30 @@ public class Reservation {
     void addCartoReservation(Long newCarID){
         this.CarsIDs.add(newCarID);
     }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
+    }
+
+    public Long getPersonID() {
+        return PersonID;
+    }
+
+    public void setPersonID(Long personID) {
+        PersonID = personID;
+    }
+
+    public List<Long> getCarsIDs() {
+        return CarsIDs;
+    }
+
+    public void setCarsIDs(List<Long> carsIDs) {
+        CarsIDs = carsIDs;
+    }
 }
 
 
